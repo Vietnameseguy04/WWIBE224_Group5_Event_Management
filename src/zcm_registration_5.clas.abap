@@ -10,7 +10,7 @@ CLASS zcm_registration_5 DEFINITION PUBLIC
     " Message Constants
     CONSTANTS:
       BEGIN OF approve_success,
-        msgid TYPE symsgid      VALUE 'Z_REGISTRATION_05',
+        msgid TYPE symsgid      VALUE 'Z_REGISTRATION_5',
         msgno TYPE symsgno      VALUE '001',
         attr1 TYPE scx_attrname VALUE '',
         attr2 TYPE scx_attrname VALUE '',
@@ -19,7 +19,7 @@ CLASS zcm_registration_5 DEFINITION PUBLIC
       END OF approve_success,
 
       BEGIN OF already_approved,
-        msgid TYPE symsgid      VALUE 'Z_REGISTRATION_05',
+        msgid TYPE symsgid      VALUE 'Z_REGISTRATION_5',
         msgno TYPE symsgno      VALUE '002',
         attr1 TYPE scx_attrname VALUE '',
         attr2 TYPE scx_attrname VALUE '',
@@ -28,7 +28,7 @@ CLASS zcm_registration_5 DEFINITION PUBLIC
       END OF already_approved,
 
       BEGIN OF reject_success,
-        msgid TYPE symsgid      VALUE 'Z_REGISTRATION_05',
+        msgid TYPE symsgid      VALUE 'Z_REGISTRATION_5',
         msgno TYPE symsgno      VALUE '003',
         attr1 TYPE scx_attrname VALUE '',
         attr2 TYPE scx_attrname VALUE '',
@@ -37,7 +37,7 @@ CLASS zcm_registration_5 DEFINITION PUBLIC
       END OF reject_success,
 
       BEGIN OF already_rejected,
-        msgid TYPE symsgid      VALUE 'Z_REGISTRATION_05',
+        msgid TYPE symsgid      VALUE 'Z_REGISTRATION_5',
         msgno TYPE symsgno      VALUE '004',
         attr1 TYPE scx_attrname VALUE '',
         attr2 TYPE scx_attrname VALUE '',

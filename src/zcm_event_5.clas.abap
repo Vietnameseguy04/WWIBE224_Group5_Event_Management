@@ -10,7 +10,7 @@ CLASS zcm_event_5 DEFINITION PUBLIC
     " Message Constants
     CONSTANTS:
       BEGIN OF invalid_dates,
-        msgid TYPE symsgid      VALUE 'Z_EVENT_05',
+        msgid TYPE symsgid      VALUE 'Z_EVENT_5',
         msgno TYPE symsgno      VALUE '001',
         attr1 TYPE scx_attrname VALUE '',
         attr2 TYPE scx_attrname VALUE '',
@@ -19,7 +19,7 @@ CLASS zcm_event_5 DEFINITION PUBLIC
       END OF invalid_dates,
 
       BEGIN OF invalid_startdate,
-        msgid TYPE symsgid      VALUE 'Z_EVENT_05',
+        msgid TYPE symsgid      VALUE 'Z_EVENT_5',
         msgno TYPE symsgno      VALUE '002',
         attr1 TYPE scx_attrname VALUE '',
         attr2 TYPE scx_attrname VALUE '',
@@ -28,7 +28,7 @@ CLASS zcm_event_5 DEFINITION PUBLIC
       END OF invalid_startdate,
 
       BEGIN OF max_participants_reached,
-        msgid TYPE symsgid      VALUE 'Z_EVENT_05',
+        msgid TYPE symsgid      VALUE 'Z_EVENT_5',
         msgno TYPE symsgno      VALUE '003',
         attr1 TYPE scx_attrname VALUE '',
         attr2 TYPE scx_attrname VALUE '',
